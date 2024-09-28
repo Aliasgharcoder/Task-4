@@ -1,0 +1,6 @@
+.app {
+  height: 100vh;
+  background-image: url("../bg3.jpg");
+  background-size: cover;
+  background-position: center;
+}

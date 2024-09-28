@@ -1,0 +1,36 @@
+.search-notes-container {
+  padding: 20px;
+  width: calc(100% - 200px); /* To account for the nav width */
+  margin-left: 200px;
+}
+
+.search-input {
+  width: 10%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.notes-results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.note-result {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: calc(33.3333% - 20px); /* 3 results per row */
+  box-sizing: border-box;
+}
+
+.note-result h3 {
+  margin-top: 0;
+}
+
+.no-results {
+  color: red;
+  font-size: 16px;
+}
